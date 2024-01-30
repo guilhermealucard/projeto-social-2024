@@ -1,0 +1,64 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: 'JetBrains-Mono';
+  src: url('fonts/JetBrainsMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+html,body{
+  background: black url(images/fundo.jpg) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+main{
+  height: 100vh;
+  position: relative;
+  font-family: 'JetBrains-Mono', monospace;
+}
+
+section#iphone{
+  height: 632px;
+  width: 309px;
+  background: url(images/iphone14.png) no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+iframe#screen {
+  position: relative;
+  top: 13px;
+  left: 17px;
+  width: 280px;
+  height: 607px;
+}
+
+section#main-titles{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    position: absolute;
+    top: 32%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+section#main-titles > h1{
+  font-size: 4em;
+  text-shadow: 2px 19px 20px rgba(0, 0, 0, 0.63);
+}
+
+section#main-titles > p{
+  font-size: 1.3em;
+  text-align: right;
+  font-style: italic;
+}
+
