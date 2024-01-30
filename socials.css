@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar{
+  width: 0px;
+  height: 0px;
+}
+
+img{
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a{
+  display: block;
+  text-align: center;
+  background-color: darkgreen;
+  color: white;
+  padding: 10px;
+}
+

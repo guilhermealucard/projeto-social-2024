@@ -40,10 +40,14 @@ section#iphone{
 
 iframe#screen {
   position: relative;
-  top: 13px;
-  left: 17px;
-  width: 280px;
-  height: 607px;
+  top: 21px;
+  left: 29px;
+  width: 255px;
+  height: 589px;
+}
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
 section#main-titles{
