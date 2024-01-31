@@ -96,4 +96,23 @@ section.socials > a > #facebook{
   left: 64%;
 }
 
+footer > p{
+  background-color: black;
+  font-size: 1.4em;
+  text-align: center;
+  color: yellow;
+  padding: 20px;
+
+}
+
+footer > p > a{
+  text-decoration: none;
+  color: darkcyan;
+}
+
+footer > p > a:hover{
+  text-decoration: underline;
+  color: white;
+}
+
 
